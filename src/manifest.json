@@ -1,8 +1,8 @@
 {
   "version": "0.1.1",
   "name": "Translator for the Breed Bootloader",
-  "short_name": "Breed Translator",
-  "description": "More informations at https://github.com/szsoftware/breed-translator.",
+  "short_name": "Breed Translator Newifi 3 D2 Fix",
+  "description": "More informations at https://github.com/wcluigi1999/breed-translator.",
   "permissions": [
     "http://192.168.1.1/*"
   ],
