@@ -1,3 +1,5 @@
+breed-translator fix for newifi3 d2
+
 # breed-translator
 This silly browser extension translates chinese strings within the Breed Bootloader for various wifi devices.
 
