@@ -1,14 +1,25 @@
 {
   "version": "0.1.1",
-  "name": "Translator for the Breed Bootloader",
+  "name": "Breed Translator Newifi 3 D2",
   "short_name": "Breed Translator Newifi 3 D2 Fix",
-  "description": "More informations at https://github.com/wcluigi1999/breed-translator.",
+  "description": "More information at https://github.com/wcluigi1999/breed-translator.",
   "permissions": [
     "http://192.168.1.1/*"
   ],
   "content_scripts": [
     {
-      "matches": ["http://192.168.1.1/*"],
+      "matches": ["http://192.168.1.1/index.html",
+				  "http://192.168.1.1/upgrade.html",
+				  "http://192.168.1.1/backup.html",
+				  "http://192.168.1.1/clock.html",
+				  "http://192.168.1.1/reset.html",
+				  "http://192.168.1.1/envedit.html",
+				  "http://192.168.1.1/mac.html",
+				  "http://192.168.1.1/envconf.html",
+				  "http://192.168.1.1/reboot.html",
+				  "http://192.168.1.1/about.html",
+				  "http://192.168.1.1/upload.html",
+				  "http://192.168.1.1/"],
       "js": ["main.js"],
       "run_at": "document_end"
     }
